@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         webView.loadUrl("http://192.168.1.2:8080/LegalApp/login");  //enter url or domain here with http/https
 
+        MyWebViewClient wb =new MyWebViewClient();
+        webView.setWebViewClient(wb);
+
 
     }
 
