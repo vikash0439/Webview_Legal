@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
 import android.webkit.*;
 
+/**
+ * Created by Vikash Kumar on 09-01-2019.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
